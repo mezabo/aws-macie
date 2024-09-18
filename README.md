@@ -2,11 +2,11 @@
 
 # Overview
 
-We’re going to create some fake PII (Personally Identifiable Information) in an S3 bucket, set up Amazon Macie to find and report that data, and alert us via EventBridge and SNS.
+WWe’ll generate some mock Personally Identifiable Information (PII) in an S3 bucket, configure Amazon Macie to detect and report it, and set up alerts using EventBridge and SNS.
 
-I will be creating this in the ap-southeast-2 region, so all links to the console will be there. Make sure you change region if you’re deploying elsewhere.
+This setup will be done in the ap-southeast-2 region, so ensure you switch regions if deploying elsewhere.
 
-Macie is free for 30 days, so as long as you disable Macie before then, you won’t pay anything.
+Macie is free for the first 30 days, so be sure to disable it within that time to avoid any charges.
 
 # Example Data
 
