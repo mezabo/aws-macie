@@ -2,7 +2,7 @@
 
 # Overview
 
-WWe’ll generate some mock Personally Identifiable Information (PII) in an S3 bucket, configure Amazon Macie to detect and report it, and set up alerts using EventBridge and SNS.
+We’ll generate some mock Personally Identifiable Information (PII) in an S3 bucket, configure Amazon Macie to detect and report it, and set up alerts using EventBridge and SNS.
 
 This setup will be done in the ap-southeast-2 region, so ensure you switch regions if deploying elsewhere.
 
